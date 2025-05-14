@@ -13,8 +13,8 @@ I hope this repo not only helps me personally, but also serves as a valuable gui
 | --- | ---------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | 01  | [Internet](./01-internet/)                                                   | Basic knowledge about how the internet works                    |
 | 02  | [Language](./02-language/)                                                   | Introduction to backend programming languages                   |
-| 03  | [Version Control System](./03-version-control-system/)                       | Learn Git to manage and track code changes                      |
-| 04  | [Repo Hosting Services / GitHub](<./04-repo-hosting-services\ github/>)      | Use platforms like GitHub to host and collaborate on code       |
+| 03  | [Version Control System](./03-version-control-system/git)                    | Learn Git to manage and track code changes                      |
+| 04  | [Repo Hosting Services / GitHub](./04-repo-hosting-services\github/)         | Use platforms like GitHub to host and collaborate on code       |
 | 05  | [Relational Database](./05-relational-database/)                             | Understand SQL, tables, and relational data modeling            |
 | 06  | [API](./06-API/)                                                             | Build and consume RESTful APIs for data communication           |
 | 07  | [Caching](./07-caching/)                                                     | Improve performance using caching techniques like Redis         |
