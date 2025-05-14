@@ -62,15 +62,15 @@ GitHub makes it easy to share, track, and manage software projects — whether y
 1. Create a GitHub account and repository.
 2. Initialize Git in your local project:
 
-```bash
+````bash
 git init
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/your-username/your-repo.git
 git push -u origin main
+```bash
 
 ---
-
 
 ## 🤝 Collaborating on GitHub
 
@@ -107,4 +107,4 @@ It enables **collaboration**, **version tracking**, **issue management**, and **
 Whether you're working **solo** or in a **team**, GitHub is essential for modern development.
 
 ---
-```
+````
