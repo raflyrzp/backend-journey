@@ -28,25 +28,51 @@ A **Relational Database (RDB)** stores data in the form of **rows and columns** 
 
 ## 🔗 Example Relationship
 
-Let's say you have two tables: `users` and `orders`.
+Let’s say you’re building an anime fan website. You have two tables: `characters` and `anime_series`.
 
-- Each **user** can have **many orders** (One-to-Many relationship)
-- `orders.user_id` is a **foreign key** pointing to `users.id`
+- Each **anime series** can have **many characters** (One-to-Many relationship)
+- `characters.anime_id` is a **foreign key** referencing `anime_series.id`
 
-### Diagram:
+This simulates a real-world scenario where multiple characters belong to one anime.
+
+---
+
+### 🗂️ Example Data
+
+#### `anime_series` table
+
+| id  | title           | genre   |
+| --- | --------------- | ------- |
+| 1   | Naruto          | Shounen |
+| 2   | Attack on Titan | Action  |
+| 3   | Haikyu!         | Sport   |
+
+#### `characters` table
+
+| id  | name           | role  | anime_id |
+| --- | -------------- | ----- | -------- |
+| 1   | Naruto Uzumaki | Main  | 1        |
+| 2   | Sasuke Uchiha  | Rival | 1        |
+| 3   | Hinata Shoyo   | Main  | 3        |
+| 4   | Eren Yeager    | Main  | 2        |
+
+---
+
+### 🎴 Relationship Diagram (with Mermaid)
 
 ```mermaid
 erDiagram
-    USERS ||--o{ ORDERS : has
-    USERS {
+    ANIME_SERIES ||--o{ CHARACTERS : has
+    ANIME_SERIES {
+        int id PK
+        string title
+        string genre
+    }
+    CHARACTERS {
         int id PK
         string name
-        string email
-    }
-    ORDERS {
-        int id PK
-        string item_name
-        int user_id FK
+        string role
+        int anime_id FK
     }
 ```
 
