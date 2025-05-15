@@ -35,15 +35,20 @@ Let's say you have two tables: `users` and `orders`.
 
 ### Diagram:
 
-users
-id (PK)
-name
-email
-
-orders
-id (PK)
-item_name
-user_id (FK) --> users.id
+```mermaid
+erDiagram
+    USERS ||--o{ ORDERS : has
+    USERS {
+        int id PK
+        string name
+        string email
+    }
+    ORDERS {
+        int id PK
+        string item_name
+        int user_id FK
+    }
+```
 
 ---
 
