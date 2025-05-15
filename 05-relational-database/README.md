@@ -58,7 +58,7 @@ This simulates a real-world scenario where multiple characters belong to one ani
 
 ---
 
-### 🎴 Relationship Diagram (with Mermaid)
+### 🎴 Relationship Diagram
 
 ```mermaid
 erDiagram
