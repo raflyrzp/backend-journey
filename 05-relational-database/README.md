@@ -15,7 +15,7 @@ A **Relational Database (RDB)** stores data in the form of **rows and columns** 
 | id  | name  | email           |
 | --- | ----- | --------------- |
 | 1   | Rafly | rafly@email.com |
-| 2   | Ade   | ade@email.com   |
+| 2   | Maki  | maki@email.com  |
 
 ### Key Concepts:
 
