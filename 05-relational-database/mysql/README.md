@@ -141,7 +141,7 @@ main();
 - Use foreign keys for data consistency
 - Always define primary keys
 - Use indexes on frequently searched columns
-- Avoid unnecessary `SELECT \*`, choose only required columns
+- Avoid unnecessary `SELECT *`, choose only required columns
 - Normalize your tables to avoid data duplication
 
 ---
