@@ -101,6 +101,26 @@ JOIN anime_series a ON c.anime_id = a.id;
 
 ---
 
+## 🧩 Relationship Diagram
+
+```mermaid
+erDiagram
+    ANIME_SERIES ||--o{ CHARACTERS : has
+    ANIME_SERIES {
+        int id PK
+        string title
+        string genre
+    }
+    CHARACTERS {
+        int id PK
+        string name
+        string role
+        int anime_id FK
+    }
+```
+
+---
+
 ## ⚙️ Integrating MySQL with Node.js (Using mysql2)
 
 ### 1. Install Package:
