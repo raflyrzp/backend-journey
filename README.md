@@ -9,13 +9,13 @@ I hope this repo not only helps me personally, but also serves as a valuable gui
 
 ## 📚 Topics Overview
 
-| No  | Topic                                                               | Description                                                                |
-| --- | ------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| 01  | [Internet](./01-internet/)                                          | Basic knowledge about how the internet works                               |
-| 02  | [Language](./02-language/)                                          | Introduction to backend programming languages                              |
-| 03  | [Version Control System](./03-version-control-system/git)           | Learn Git to manage and track code changes                                 |
-| 04  | [Repo Hosting Services / GitHub](./04-repo-hosting-services/github) | Use platforms like GitHub to host and collaborate on code                  |
-| 05  | [Relational Database](./05-relational-database/)                    | Learn how to structure and query data using SQL-based relational databases |
+| No  | Topic                                                 | Description                                                                         |
+| --- | ----------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| 01  | [Internet](./01-internet/)                            | Basic knowledge about how the internet works                                        |
+| 02  | [Language](./02-language/)                            | Introduction to backend programming languages                                       |
+| 03  | [Version Control System](./03-version-control-system) | Understanding systems that track and manage changes to source code over time        |
+| 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Exploring platforms that store, share, and facilitate collaboration on repositories |
+| 05  | [Relational Database](./05-relational-database/)      | Learn how to structure and query data using SQL-based relational databases          |
 
 ---
 
