@@ -32,8 +32,6 @@ Instead of saving multiple copies like `project-v1`, `project-final`, and `proje
 | **Centralized VCS (CVCS)** | Uses a central server (e.g., SVN). Needs constant connection and has single point of failure |
 | **Distributed VCS (DVCS)** | Each developer has a full copy of the repo (e.g., Git, Mercurial). Can work offline          |
 
-> ✅ **Git** is the most popular DVCS used today, and powers platforms like GitHub, GitLab, and Bitbucket.
-
 ---
 
 ## 🔄 How VCS Works (Simplified)
@@ -65,6 +63,8 @@ Instead of saving multiple copies like `project-v1`, `project-final`, and `proje
 - 🧪 [GitLab](https://gitlab.com)
 - 🧰 [Bitbucket](https://bitbucket.org)
 - 🧵 [Subversion (SVN)](https://subversion.apache.org) _(older CVCS)_
+
+> ✅ **Git** is the most popular DVCS used today, and powers platforms like GitHub, GitLab, and Bitbucket.
 
 ---
 
