@@ -3,38 +3,11 @@
 An **API (Application Programming Interface)** is a **contract** that lets two pieces of software exchange information in a predictable way.  
 Picture it like a **restaurant menu**: the menu lists what you can order (endpoints) and tells the kitchen what to prepare (logic) without exposing the secret recipes (implementation).
 
+![Restaurant analogy explaining how an API works](./restaurant-analogy.jpg)
+
+_Figure 1 – A restaurant‑style analogy of client ↔︎ API ↔︎ server._
+
 ---
-
-## 🍽️ Restaurant Analogy
-
-```mermaid
-flowchart LR
-  subgraph Client Side
-    A[Customer 🔍] -->|Reads menu| M(Menu 📜)
-    M -->|Places order| O[(Waiter 🧑‍🍳)]
-  end
-
-  subgraph Server Side
-    K[[Kitchen 🔥]]
-    O -.order ticket.-> K
-    K -->|Prepared dish| O
-  end
-
-  O -->|Serves dish| A
-
-  classDef client fill:#E3F6FF,stroke:#00A3E0;
-  classDef server fill:#FFF5E1,stroke:#FFB300;
-  class Client Side client;
-  class Server Side server;
-```
-
-| Analogy Element | API Counterpart               |
-| --------------- | ----------------------------- |
-| Menu            | API documentation / endpoints |
-| Customer        | Client application            |
-| Waiter          | API layer / request handler   |
-| Kitchen         | Server logic & database       |
-| Dish            | API response                  |
 
 ## 🚀 Why APIs Matter
 
