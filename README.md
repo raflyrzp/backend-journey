@@ -16,7 +16,7 @@ I hope this repo not only helps me personally, but also serves as a valuable gui
 | 03  | [Version Control System](./03-version-control-system) | Concepts of distributed versioning (commits, branches, merges) and how to manage code history |
 | 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Cloud platforms (GitHub, GitLab, Bitbucket) for storing repos, reviewing code, and CI/CD      |
 | 05  | [Relational Database](./05-relational-database/)      | Modeling data with tables, keys, SQL queries, and best practices for PostgreSQL/MySQL/SQLite  |
-| 06  | [API](./06-api/)                                      | Designing and consuming APIs, request–response cycle, and documentation                       |
+| 06  | [API](./06-API/)                                      | Designing and consuming APIs, request–response cycle, and documentation                       |
 
 ---
 
