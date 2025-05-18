@@ -9,13 +9,14 @@ I hope this repo not only helps me personally, but also serves as a valuable gui
 
 ## 📚 Topics Overview
 
-| No  | Topic                                                 | Description                                                                         |
-| --- | ----------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| 01  | [Internet](./01-internet/)                            | Basic knowledge about how the internet works                                        |
-| 02  | [Language](./02-language/)                            | Introduction to backend programming languages                                       |
-| 03  | [Version Control System](./03-version-control-system) | Understanding systems that track and manage changes to source code over time        |
-| 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Exploring platforms that store, share, and facilitate collaboration on repositories |
-| 05  | [Relational Database](./05-relational-database/)      | Learn how to structure and query data using SQL-based relational databases          |
+| No  | Topic                                                 | Description                                                                                   |
+| --- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 01  | [Internet](./01-internet/)                            | How data moves across networks, DNS, HTTP, browsers, and hosting basics                       |
+| 02  | [Language](./02-language/)                            | Choosing and setting up a backend language (JavaScript/TypeScript, Python, Go, Java, etc.)    |
+| 03  | [Version Control System](./03-version-control-system) | Concepts of distributed versioning (commits, branches, merges) and how to manage code history |
+| 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Cloud platforms (GitHub, GitLab, Bitbucket) for storing repos, reviewing code, and CI/CD      |
+| 05  | [Relational Database](./05-relational-database/)      | Modeling data with tables, keys, SQL queries, and best practices for PostgreSQL/MySQL/SQLite  |
+| 06  | [API](./06-api/)                                      | Designing and consuming APIs, request–response cycle, and documentation                       |
 
 ---
 
