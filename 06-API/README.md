@@ -22,6 +22,18 @@ The client orders from a menu (API spec), the API delivers the order to the kitc
 
 ---
 
+## 🧭 Types of APIs
+
+| Type          | Description                                                                 |
+| ------------- | --------------------------------------------------------------------------- |
+| **REST**      | Uses HTTP methods and resource URLs, typically responds with JSON.          |
+| **GraphQL**   | Client defines the data shape; reduces over/under-fetching.                 |
+| **gRPC**      | Uses HTTP/2 + Protobuf, ideal for high-performance microservices.           |
+| **WebSocket** | Bi-directional, real-time connection between client and server.             |
+| **SOAP**      | XML-based protocol with strict contracts; common in legacy enterprise apps. |
+
+---
+
 ## 🚀 Why APIs Matter
 
 | Purpose           | What It Enables                                                                                  |
@@ -44,36 +56,6 @@ The client orders from a menu (API spec), the API delivers the order to the kitc
 | **Protocol / Format**        | Rules that govern the exchange: REST/HTTP, GraphQL, gRPC, WebSocket, SOAP.   |
 | **Authentication / AuthZ**   | Proves _who_ you are and _what_ you’re allowed to do (JWT, OAuth, API keys). |
 | **Documentation / Contract** | Human‑ & machine‑readable spec (OpenAPI/Swagger, GraphQL SDL, `.proto`).     |
-
----
-
-## 🗺️ Road‑map for Learning APIs
-
-The image roadmap breaks the topic into several focused modules.  
-Below is how this README will guide you through them:
-
-1. **API Paradigms**
-
-   - **REST & JSON APIs** ✅
-   - GraphQL, gRPC, SOAP ▸ compare strengths & trade‑offs
-   - HATEOAS & Hypermedia concepts
-
-2. **Open API Specifications**
-
-   - Swagger / OpenAPI files, code generation, mock servers
-
-3. **Authentication & Authorization**
-
-   - **JWT, OAuth** ✅
-   - Basic Auth, Token Auth, Cookie‑based Auth
-   - OpenID Connect & SAML
-
-4. **Interaction Tactics** _(coming soon)_
-   - Versioning, pagination, rate‑limiting
-   - Caching headers, error‑handling patterns
-
-> **Goal:** Understand the _philosophy_ of APIs first.  
-> Each detailed topic later will show _how_ to design, secure, and scale real‑world interfaces.
 
 ---
 
