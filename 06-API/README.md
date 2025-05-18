@@ -3,7 +3,7 @@
 An **API (Application Programming Interface)** is a **contract** that lets two pieces of software exchange information in a predictable way.  
 Picture it like a **restaurant menu**: the menu lists what you can order (endpoints) and tells the kitchen what to prepare (logic) without exposing the secret recipes (implementation).
 
-![Restaurant analogy explaining how an API works](./restaurant-analogy.jpg)
+![Restaurant analogy explaining how an API works](./restaurant-analogy.png)
 
 _Figure 1 – A restaurant‑style analogy of client ↔︎ API ↔︎ server._
 
