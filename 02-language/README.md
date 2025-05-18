@@ -34,8 +34,6 @@ Most backend languages share the following traits:
 
 Here are four widely-used programming languages in backend development:
 
----
-
 ### 1. PHP
 
 PHP is a server-side scripting language specifically designed for web development. It has been widely used for creating dynamic web pages and content management systems like WordPress.
