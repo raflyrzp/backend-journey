@@ -1,7 +1,7 @@
 # 🌐 HTTP Overview
 
 <div align="center">
-  <img src="./http-img.gif" alt="HTTP Connection Overview" width="100%"/>
+  <img src="./http-img.gif" alt="HTTP Connection Overview" width="100vw"/>
 </div>
 
 > _Figure: Basic HTTP communication between client and server using request-response model._  
