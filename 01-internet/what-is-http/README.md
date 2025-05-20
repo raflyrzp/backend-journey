@@ -1,6 +1,8 @@
 # 🌐 HTTP Overview
 
-![HTTP Connection Overview](./http-img.gif)
+<div align="center">
+  <img src="./http-img.gif" alt="HTTP Connection Overview" width="80%" />
+</div>
 
 > _Figure: Basic HTTP communication between client and server using request-response model._  
 > Source: [GeeksforGeeks – HTTP Full Form](https://www-geeksforgeeks-org.translate.goog/http-full-form/?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=imgs)
