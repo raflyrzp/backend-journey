@@ -10,6 +10,8 @@ An **API (Application Programming Interface)** is a **contract** that lets two p
 
 _Figure 1 – A restaurant‑style analogy of client ↔︎ API ↔︎ server._
 
+> Source: [What is an API and what does it do](https://blog-openapihub-com.translate.goog/en-us/what-is-an-api-and-what-does-it-do/?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=imgs)
+
 | Role in Picture                    | Represents             | Quick Note                                                        |
 | ---------------------------------- | ---------------------- | ----------------------------------------------------------------- |
 | **App / Client** (customer + menu) | Web / mobile front‑end | Reads the **menu** (API docs) and decides what to request.        |
