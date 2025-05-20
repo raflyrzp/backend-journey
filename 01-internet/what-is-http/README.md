@@ -56,6 +56,26 @@ Accept: application/json
 
 ---
 
+## 📊 HTTP Status Codes
+
+After a server processes a request, it returns a status code to indicate what happened.
+
+| Code | Category               | Meaning                                  |
+| ---- | ---------------------- | ---------------------------------------- |
+| 200  | ✅ Success             | Request was successful                   |
+| 201  | ✅ Created             | Resource successfully created            |
+| 204  | ✅ No Content          | Success, but no content to return        |
+| 400  | ⚠️ Client Error        | Bad request (invalid data)               |
+| 401  | 🔒 Unauthorized        | Authentication required or failed        |
+| 403  | 🚫 Forbidden           | Authenticated but not allowed            |
+| 404  | ❌ Not Found           | Resource doesn't exist                   |
+| 500  | 💥 Server Error        | Something went wrong on the server       |
+| 503  | ⏳ Service Unavailable | Server is temporarily down or overloaded |
+
+---
+
+---
+
 ## 🧠 Summary
 
 - HTTP enables structured communication between client and server.
