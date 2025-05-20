@@ -93,7 +93,7 @@ Assume we are building a RESTful API for managing users:
 - Handle errors with clear, consistent messages
 - Use OpenAPI (Swagger) to document your API
 
---
+---
 
 ## 🧠 Summary
 
