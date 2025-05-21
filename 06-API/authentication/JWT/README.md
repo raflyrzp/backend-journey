@@ -94,9 +94,9 @@ The typical authentication flow using JWT looks like this:
 5. **Server Verifies Token**
    The backend verifies the token using the secret key:
 
-- Checks the signature for integrity
-- Validates expiration time (exp) and other claims
-- Grants access if valid, rejects if invalid or expired
+   - Checks the signature for integrity
+   - Validates expiration time (exp) and other claims
+   - Grants access if valid, rejects if invalid or expired
 
 ---
 
