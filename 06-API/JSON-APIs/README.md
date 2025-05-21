@@ -19,8 +19,8 @@ Example:
 ```json
 {
   "id": 1,
-  "name": "Naruto Uzumaki",
-  "email": "naruto@example.com"
+  "name": "Maki Zenin",
+  "email": "makizenin@example.com"
 }
 ```
 
