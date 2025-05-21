@@ -119,5 +119,3 @@ sequenceDiagram
 - It's commonly used for “Login with…” flows.
 - Involves exchanging authorization codes for access tokens.
 - Access is limited and scoped, keeping users in control.
-
-Next: Learn how to implement **OAuth login using Passport.js** or other libraries in your backend.
