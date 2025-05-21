@@ -71,6 +71,28 @@ Applications should **request the minimal scopes necessary**.
 
 ---
 
+## 🧩 OAuth Flow Diagram
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant App as Application (Client)
+    participant AuthServer as Authorization Server (e.g., Google)
+    participant API as Resource Server (e.g., Google APIs)
+
+    User->>App: Clicks "Login with Google"
+    App->>AuthServer: Redirect user to authorize (client_id, redirect_uri, scope)
+    AuthServer->>User: Login + Consent
+    User->>AuthServer: Grants permission
+    AuthServer-->>App: Redirect with authorization code
+    App->>AuthServer: Sends code + client_secret for access token
+    AuthServer-->>App: Returns access token (and optionally refresh token)
+    App->>API: Sends access token to fetch user data
+    API-->>App: Returns protected data (e.g., email, profile)
+```
+
+---
+
 ## ✅ OAuth vs JWT
 
 | Feature          | OAuth                                 | JWT                                       |
