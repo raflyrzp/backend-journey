@@ -44,8 +44,8 @@ POST /users HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "Naruto Uzumaki",
-  "email": "naruto@example.com"
+  "name": "Maki Zenin",
+  "email": "makizenin@example.com"
 }
 ```
 
