@@ -15,7 +15,7 @@ It is commonly used for:
 A JWT looks like this:
 
 <div align="center">
-  <img src="./jwt-structure.png" alt="Structure of JWT" width="70%" />
+  <img src="./jwt-structure.png" alt="Structure of JWT" />
 </div>
 
 > _Figure: JWT consists of three parts — Header, Payload, and Signature._  
