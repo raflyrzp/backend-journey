@@ -59,8 +59,8 @@ Content-Type: application/json
 
 {
   "id": 1,
-  "name": "Naruto Uzumaki",
-  "email": "naruto@example.com",
+  "name": "Maki Zenin",
+  "email": "makizenin@example.com",
   "created_at": "2025-05-21T10:15:00Z"
 }
 ```
