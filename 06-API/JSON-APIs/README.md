@@ -97,3 +97,11 @@ There is a formal specification at https://jsonapi.org called JSON:API.
 It defines strict rules for structuring requests and responses, including pagination, filtering, and relationships.
 
 > You don’t need to use JSON:API to build a JSON API, but it’s useful for standardizing complex APIs.
+
+---
+
+## 🧠 Summary
+
+- JSON API refers to any API that uses JSON as the data format.
+- It’s the default for modern web APIs and works naturally with REST.
+- Clean and consistent JSON responses help frontend apps and mobile apps consume your API more easily.
