@@ -19,7 +19,7 @@ A JWT looks like this:
 </div>
 
 > _Figure: JWT consists of three parts — Header, Payload, and Signature._  
-> Source: [SuperTokens](https://supertokens.com)
+> Source: [SuperTokens](https://supertokens.com/blog/what-is-jwt)
 
 ### 1. **Header**
 
