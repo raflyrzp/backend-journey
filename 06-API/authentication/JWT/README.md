@@ -70,24 +70,33 @@ HMACSHA256(
 
 ## 🔄 JWT Authentication Flow
 
-1. Login
-   User submits login credentials (e.g., POST /login)
+The typical authentication flow using JWT looks like this:
 
-2. Server Issues Token
-   If credentials are valid, server creates a JWT and sends it to the client
+1. **Login**  
+   The user submits login credentials (e.g., `POST /login`).
 
-3. Client Stores Token
-   Usually in localStorage, sessionStorage, or a cookie
+2. **Server Issues Token**  
+   If the credentials are valid, the server generates a JWT and sends it back to the client.
 
-4. Client Sends Token
-   For protected routes, client includes JWT in request headers:
+3. **Client Stores Token**  
+   The client saves the JWT in a secure place, usually:
 
-```makefile
-Authorization: Bearer <token>
-```
+   - `localStorage` or `sessionStorage` (browser)
+   - `cookie` (for web apps with automatic inclusion)
 
-5. Server Verifies Token
-   Backend decodes and verifies the signature using the secret key
+4. **Client Sends Token**  
+    For protected API requests, the client includes the JWT in the request headers:
+
+   ```http
+   Authorization: Bearer <token>
+   ```
+
+5. **Server Verifies Token**
+   The backend verifies the token using the secret key:
+
+- Checks the signature for integrity
+- Validates expiration time (exp) and other claims
+- Grants access if valid, rejects if invalid or expired
 
 ---
 
