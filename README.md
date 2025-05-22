@@ -11,7 +11,7 @@ I hope this repo not only helps me personally, but also serves as a valuable gui
 
 | No  | Topic                                                 | Description                                                                                   |
 | --- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 01  | [Internet](./01-internet/)                            | How data moves across networks, DNS, HTTP, browsers, and hosting basics                       |
+| 01  | [Internet](./01-internet/)                            | How data moves across networks, DNS, HTTP, browsers, and hosting basics.                       |
 | 02  | [Language](./02-language/)                            | Choosing and setting up a backend language (JavaScript/TypeScript, Python, Go, Java, etc.)    |
 | 03  | [Version Control System](./03-version-control-system) | Concepts of distributed versioning (commits, branches, merges) and how to manage code history |
 | 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Cloud platforms (GitHub, GitLab, Bitbucket) for storing repos, reviewing code, and CI/CD      |
