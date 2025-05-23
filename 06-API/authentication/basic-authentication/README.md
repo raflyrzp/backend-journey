@@ -14,3 +14,18 @@ It allows clients to send a username and password with each request to verify th
 3. If the credentials are valid, the request is processed. Otherwise, it returns a `401 Unauthorized` response.
 
 ---
+
+## 🧾 Example
+
+```http
+GET /protected-resource HTTP/1.1
+Host: example.com
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+```
+
+In this example:
+
+- admin:password is encoded to Base64 → YWRtaW46cGFzc3dvcmQ=
+- The server will decode it back and verify the username and password
+
+---
