@@ -25,7 +25,7 @@ Authorization: Basic YWRtaW46cGFzc3dvcmQ=
 
 In this example:
 
-- admin:password is encoded to Base64 → YWRtaW46cGFzc3dvcmQ=
+- `admin:password` is encoded to Base64 → `YWRtaW46cGFzc3dvcmQ=`
 - The server will decode it back and verify the username and password
 
 ---
