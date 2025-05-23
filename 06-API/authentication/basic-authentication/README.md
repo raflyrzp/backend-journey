@@ -60,3 +60,11 @@ WWW-Authenticate: Basic realm="Access to the site"
 | Scripts or automated systems | APIs requiring fine-grained access       |
 
 ---
+
+## 🔐 Alternative: Use Token-Based Auth or OAuth for production
+
+While Basic Auth is simple and built-in, it’s recommended to use more secure and flexible methods like:
+
+- JWT (JSON Web Token)
+- OAuth 2.0
+- API keys with scoped access
