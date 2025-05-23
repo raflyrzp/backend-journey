@@ -29,3 +29,14 @@ In this example:
 - The server will decode it back and verify the username and password
 
 ---
+
+## 🔓 Response If Unauthorized
+
+If no or invalid credentials are provided:
+
+```http
+HTTP/1.1 401 Unauthorized
+WWW-Authenticate: Basic realm="Access to the site"
+```
+
+---
