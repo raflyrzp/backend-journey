@@ -68,3 +68,12 @@ While Basic Auth is simple and built-in, it’s recommended to use more secure a
 - JWT (JSON Web Token)
 - OAuth 2.0
 - API keys with scoped access
+
+---
+
+## 🧠 Summary
+
+- Basic Auth uses `Authorization: Basic <Base64(username:password)>`
+- It’s part of the HTTP standard and requires no extra libraries
+- Only safe when used over HTTPS
+- Best used for quick testing, not for secure or complex applications
