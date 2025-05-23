@@ -48,3 +48,15 @@ WWW-Authenticate: Basic realm="Access to the site"
 | 🔒 Credentials Visible | The username and password are only **encoded**, not encrypted   |
 | ❌ No Token Support    | No sessions or tokens — credentials sent every time             |
 | 🚫 Not Secure Alone    | Should **only be used over HTTPS** to prevent data interception |
+
+---
+
+## ✅ When to Use
+
+| Suitable For                 | Not Suitable For                         |
+| ---------------------------- | ---------------------------------------- |
+| Quick internal tools         | Public-facing production applications    |
+| Simple development testing   | Apps that need session, roles, or logout |
+| Scripts or automated systems | APIs requiring fine-grained access       |
+
+---
