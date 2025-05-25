@@ -84,3 +84,14 @@ Authorization: Bearer abc123tokenxyz
 - Invalidate tokens on logout or breach (if not using JWT)
 
 ---
+
+## 🔐 Token vs Session
+
+| Feature         | Token-Based Auth        | Session-Based Auth         |
+| --------------- | ----------------------- | -------------------------- |
+| State on Server | Stateless (no session)  | Stateful (session stored)  |
+| Scalability     | Easy to scale           | Harder to scale            |
+| Storage         | Stored client-side      | Session stored server-side |
+| Used In         | APIs, SPAs, mobile apps | Traditional web apps       |
+
+---
