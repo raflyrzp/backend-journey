@@ -95,3 +95,9 @@ Authorization: Bearer abc123tokenxyz
 | Used In         | APIs, SPAs, mobile apps | Traditional web apps       |
 
 ---
+
+## 🧠 Summary
+
+- **Token Authentication** lets clients prove identity with a token instead of repeating credentials.
+- It is lightweight, secure, and works across platforms.
+- It’s commonly used in modern APIs and SPAs, especially with JWTs.
