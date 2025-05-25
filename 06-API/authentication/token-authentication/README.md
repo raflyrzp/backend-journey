@@ -74,3 +74,13 @@ Authorization: Bearer abc123tokenxyz
 - 💡 Flexible – Can contain scopes, roles, or metadata
 
 ---
+
+## ⚠️ Best Practices
+
+- Always use **HTTPS** to protect tokens in transit
+- Use **short expiration** for access tokens
+- Implement **refresh tokens** if needed
+- Store tokens securely (e.g., avoid `localStorage` for sensitive apps)
+- Invalidate tokens on logout or breach (if not using JWT)
+
+---
