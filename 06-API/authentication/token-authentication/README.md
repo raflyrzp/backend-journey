@@ -56,3 +56,12 @@ Authorization: Bearer abc123tokenxyz
 ```
 
 ---
+
+## 🧰 Common Token Types
+
+| Token Type       | Description                                                    |
+| ---------------- | -------------------------------------------------------------- |
+| **Random Token** | Server-generated, stored in database or memory to validate     |
+| **JWT**          | Self-contained, signed token with claims (no DB lookup needed) |
+
+---
