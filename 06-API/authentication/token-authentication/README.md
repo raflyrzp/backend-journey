@@ -27,3 +27,32 @@ The client then includes that token with each request to access protected routes
    The server checks if the token is valid and not expired, then grants or denies access to protected resources.
 
 ---
+
+## 🧪 Example Flow
+
+```http
+POST /login
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "123456"
+}
+```
+
+**Response:**
+
+```json
+{
+  "token": "abc123tokenxyz"
+}
+```
+
+Then used in the header for future requests:
+
+```http
+GET /dashboard
+Authorization: Bearer abc123tokenxyz
+```
+
+---
