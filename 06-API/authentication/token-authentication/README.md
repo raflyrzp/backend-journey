@@ -65,3 +65,12 @@ Authorization: Bearer abc123tokenxyz
 | **JWT**          | Self-contained, signed token with claims (no DB lookup needed) |
 
 ---
+
+## ✅ Advantages
+
+- 🔁 Stateless – No session data stored on the server
+- 🌍 Cross-platform – Works well with web, mobile, IoT, etc.
+- 🔐 Secure – Tokens can be short-lived and rotated
+- 💡 Flexible – Can contain scopes, roles, or metadata
+
+---
