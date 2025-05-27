@@ -34,3 +34,31 @@ After the user logs in, the server creates a **session** and sends back a **cook
    ```
 6. **Server Validates Session**
    The server finds the session using the session ID and checks if it’s valid.
+
+---
+
+## 📦 Example Flow
+
+```http
+POST /login
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "123456"
+}
+
+```
+
+**Response:**
+
+```http
+Set-Cookie: sessionId=xyz789; HttpOnly; Secure
+```
+
+Then, on every request:
+
+```http
+GET /dashboard
+Cookie: sessionId=xyz789
+```
