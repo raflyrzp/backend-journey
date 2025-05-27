@@ -62,3 +62,14 @@ Then, on every request:
 GET /dashboard
 Cookie: sessionId=xyz789
 ```
+
+---
+
+## 🔒 Security Best Practices
+
+| Setting           | Purpose                                           |
+| ----------------- | ------------------------------------------------- |
+| `HttpOnly`        | Prevents JavaScript access (mitigates XSS)        |
+| `Secure`          | Ensures cookie is sent only over HTTPS            |
+| `SameSite=Strict` | Prevents CSRF (cross-site request forgery)        |
+| Short expiry      | Sessions should have expiration (e.g., 1–2 hours) |
