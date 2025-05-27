@@ -83,3 +83,14 @@ Cookie: sessionId=xyz789
 | ✅ Automatic handling by browsers      | ❌ More difficult to use with APIs/mobile        |
 | ✅ Built-in support in many frameworks | ❌ Requires server-side session store            |
 | ✅ Easy for traditional web apps       | ❌ Vulnerable to CSRF if not configured properly |
+
+---
+
+## 🧁 Cookie Auth vs Token Auth
+
+| Feature              | Cookie-Based Auth             | Token-Based Auth (e.g., JWT)        |
+| -------------------- | ----------------------------- | ----------------------------------- |
+| Where stored         | On server (session) + cookie  | On client (token in memory/storage) |
+| Stateless?           | ❌ No                         | ✅ Yes                              |
+| Auto-sent by browser | ✅ Yes                        | ❌ No (must add manually)           |
+| Works with SPA/API   | ⚠️ Needs CORS & CSRF handling | ✅ Good for APIs                    |
