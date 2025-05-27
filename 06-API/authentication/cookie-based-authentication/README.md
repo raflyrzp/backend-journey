@@ -94,3 +94,11 @@ Cookie: sessionId=xyz789
 | Stateless?           | ❌ No                         | ✅ Yes                              |
 | Auto-sent by browser | ✅ Yes                        | ❌ No (must add manually)           |
 | Works with SPA/API   | ⚠️ Needs CORS & CSRF handling | ✅ Good for APIs                    |
+
+---
+
+## 🧠 Summary
+
+- **Cookie-Based Authentication** uses sessions on the server and cookies in the browser.
+- It’s ideal for traditional web apps where the client and server share the same domain.
+- Be sure to use security flags like `HttpOnly`, `Secure`, and `SameSite`.
