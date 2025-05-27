@@ -73,3 +73,13 @@ Cookie: sessionId=xyz789
 | `Secure`          | Ensures cookie is sent only over HTTPS            |
 | `SameSite=Strict` | Prevents CSRF (cross-site request forgery)        |
 | Short expiry      | Sessions should have expiration (e.g., 1–2 hours) |
+
+---
+
+## ✅ Pros & Cons
+
+| Pros                                   | Cons                                             |
+| -------------------------------------- | ------------------------------------------------ |
+| ✅ Automatic handling by browsers      | ❌ More difficult to use with APIs/mobile        |
+| ✅ Built-in support in many frameworks | ❌ Requires server-side session store            |
+| ✅ Easy for traditional web apps       | ❌ Vulnerable to CSRF if not configured properly |
