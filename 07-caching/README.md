@@ -33,3 +33,13 @@ Caching is the process of **storing frequently accessed data in temporary storag
 | 💰 Cost-Efficient   | Reduce expensive DB reads, especially at scale |
 
 ---
+
+## 🧪 Common Caching Tools
+
+| Tool             | Description                                                        |
+| ---------------- | ------------------------------------------------------------------ |
+| **Redis**        | In-memory key-value store, very fast and popular for caching       |
+| **Memcached**    | Lightweight and simple cache, suitable for short-lived data        |
+| **Local Memory** | In-process cache (e.g., LRU cache), suitable for small apps or dev |
+
+---
