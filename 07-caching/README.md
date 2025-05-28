@@ -12,3 +12,13 @@ Caching is the process of **storing frequently accessed data in temporary storag
 > Source: [ScyllaDB Glossary – Database Caching](https://www.scylladb.com/glossary/database-caching/)
 
 ---
+
+## 🧠 How Caching Works
+
+1. **Client Requests Data**
+2. **Application checks the cache**
+   - If the data is found (**cache hit**), it returns immediately.
+   - If not found (**cache miss**), the app queries the database.
+3. **If cache miss**, data is fetched from the database, returned to the client, and **stored in the cache** for next time.
+
+---
