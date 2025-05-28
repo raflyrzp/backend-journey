@@ -17,6 +17,7 @@ I hope this repo not only helps me personally, but also serves as a valuable gui
 | 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Cloud platforms (GitHub, GitLab, Bitbucket) for storing repos, reviewing code, and CI/CD.      |
 | 05  | [Relational Database](./05-relational-database/)      | Modeling data with tables, keys, SQL queries, and best practices for PostgreSQL/MySQL/SQLite.  |
 | 06  | [API](./06-API/)                                      | Designing and consuming APIs, request–response cycle, and documentation.                       |
+| 07  | [Caching](./07-caching/)                              | Improve performance by storing frequently accessed data using tools like Redis or Memcached.   |
 
 ---
 
