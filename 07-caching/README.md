@@ -22,3 +22,14 @@ Caching is the process of **storing frequently accessed data in temporary storag
 3. **If cache miss**, data is fetched from the database, returned to the client, and **stored in the cache** for next time.
 
 ---
+
+## 🚀 Why Use Caching?
+
+| Benefit             | Explanation                                    |
+| ------------------- | ---------------------------------------------- |
+| ⚡ Faster Responses | Reduce latency by serving data instantly       |
+| 💪 Reduced Load     | Offload frequent reads from your database      |
+| 🌍 Scalable Systems | Handle more users with the same infrastructure |
+| 💰 Cost-Efficient   | Reduce expensive DB reads, especially at scale |
+
+---
