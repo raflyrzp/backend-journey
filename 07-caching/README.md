@@ -43,3 +43,15 @@ Caching is the process of **storing frequently accessed data in temporary storag
 | **Local Memory** | In-process cache (e.g., LRU cache), suitable for small apps or dev |
 
 ---
+
+## ⚠️ Cache Invalidation
+
+One of the hardest problems in caching is knowing **when to remove or update cached data**.
+
+Strategies include:
+
+- **TTL (Time-To-Live):** Data auto-expires after a set time
+- **Manual Invalidation:** Manually remove/update cache when data changes
+- **Write-Through / Write-Behind:** Sync cache and database automatically
+
+---
