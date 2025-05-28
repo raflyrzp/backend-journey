@@ -69,6 +69,8 @@ Caching is the process of **storing frequently accessed data in temporary storag
 > _Figure: Applications check the cache first. If not found (cache miss), they query the database._  
 > Source: [ScyllaDB Glossary – Database Caching](https://www.scylladb.com/glossary/database-caching/)
 
+---
+
 In the image above:
 
 - 🖥 **Your Applications** are client-facing services that need to access data.
