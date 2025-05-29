@@ -38,3 +38,11 @@ Cache-Control: max-age=3600
 | 💰 Reduced Bandwidth | Saves data usage and server resources     |
 
 ---
+
+## ⚠️ Caveats
+
+- Cached data can become stale if not invalidated correctly.
+- User can manually clear browser cache.
+- Should not store sensitive data like passwords in LocalStorage.
+
+---
