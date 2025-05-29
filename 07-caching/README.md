@@ -5,7 +5,7 @@ Caching is the process of **storing frequently accessed data in temporary storag
 ---
 
 <div align="center">
-  <img src="./database-caching-diagram.png" alt="Database Caching Diagram" width="70%" />
+  <img src="./database-caching-diagram.png" alt="Database Caching Diagram" />
 </div>
 
 > _Figure: Applications check the cache first. If not found (cache miss), they query the database._  
