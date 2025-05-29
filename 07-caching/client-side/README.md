@@ -57,3 +57,8 @@ Cache-Control: max-age=3600
 | Use Service Workers for offline            | Especially useful for PWAs and mobile apps     |
 
 ---
+
+## 🧠 Summary
+
+Client-side caching improves performance and user experience by storing data in the browser or device.
+It’s useful for static content, session data, and even offline support — but must be handled with care to avoid stale or insecure data.
