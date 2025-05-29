@@ -46,3 +46,14 @@ Cache-Control: max-age=3600
 - Should not store sensitive data like passwords in LocalStorage.
 
 ---
+
+## ✅ Best Practices
+
+| Tip                                        | Why It Matters                                 |
+| ------------------------------------------ | ---------------------------------------------- |
+| Use `Cache-Control` headers                | Tell browsers what to cache and for how long   |
+| Use versioned URLs for assets              | Bust cache when assets change (`main.v2.js`)   |
+| Use `localStorage` for non-sensitive state | Avoid server round-trips for basic preferences |
+| Use Service Workers for offline            | Especially useful for PWAs and mobile apps     |
+
+---
