@@ -16,3 +16,15 @@ This improves performance, reduces server load, and gives users a faster experie
 | **IndexedDB**                     | Client-side NoSQL database, used for offline apps                      |
 
 ---
+
+## 📦 Example: Browser Cache
+
+When a web page loads assets like stylesheets or images, the browser may store them in its cache based on the server's **cache-control** or **expires** headers.
+
+```http
+Cache-Control: max-age=3600
+```
+
+🔁 The next time the page loads, the browser doesn’t re-download the file — it uses the one stored in cache.
+
+---
