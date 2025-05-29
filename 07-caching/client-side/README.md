@@ -28,3 +28,13 @@ Cache-Control: max-age=3600
 🔁 The next time the page loads, the browser doesn’t re-download the file — it uses the one stored in cache.
 
 ---
+
+## ⚡ Benefits
+
+| Benefit              | Explanation                               |
+| -------------------- | ----------------------------------------- |
+| 🚀 Faster Load Times | No need to wait for network round-trips   |
+| 💡 Offline Support   | Data remains usable even without internet |
+| 💰 Reduced Bandwidth | Saves data usage and server resources     |
+
+---
