@@ -64,3 +64,11 @@ https://cdn.yoursite.com/assets/logo.png
 ```
 
 ---
+
+## ⚠️ Notes
+
+- **Not for dynamic data** — CDN is best for static or semi-static files.
+- Combine with client-side caching (`Cache-Control`, `ETag`, etc.) for best performance.
+- Version your files (e.g., `app.v1.js`) to invalidate cache when updating content.
+
+---
