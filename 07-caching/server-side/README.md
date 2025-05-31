@@ -57,3 +57,14 @@ Let’s say your app shows a leaderboard that’s expensive to calculate:
 | **Write-through / Write-behind** | Cache updates when data is written                         |
 
 ---
+
+## ✅ Benefits of Server-Side Caching
+
+| Benefit             | Explanation                                 |
+| ------------------- | ------------------------------------------- |
+| ⚡ Faster Responses | Avoid expensive recomputation or DB queries |
+| 📉 Reduced Load     | Offload traffic from databases or APIs      |
+| 📈 Scalable Systems | Handle more users with less infrastructure  |
+| 💰 Cost Efficient   | Save compute time and database read costs   |
+
+---
