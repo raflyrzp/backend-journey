@@ -37,3 +37,15 @@ The goal of a CDN is to **reduce latency**, **increase speed**, and **improve sc
 | 📦 Bandwidth Savings   | Edge servers serve cached content more efficiently                         |
 
 ---
+
+## 🧪 Popular CDN Providers
+
+| Provider              | Notes                                          |
+| --------------------- | ---------------------------------------------- |
+| **Cloudflare**        | Free tier available, includes DNS and security |
+| **Amazon CloudFront** | Integrated with AWS infrastructure             |
+| **Akamai**            | One of the largest and oldest CDNs             |
+| **Fastly**            | Great for real-time caching and APIs           |
+| **Vercel / Netlify**  | Include CDN automatically for frontend apps    |
+
+---
