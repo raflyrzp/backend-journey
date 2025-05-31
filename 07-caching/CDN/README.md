@@ -49,3 +49,18 @@ The goal of a CDN is to **reduce latency**, **increase speed**, and **improve sc
 | **Vercel / Netlify**  | Include CDN automatically for frontend apps    |
 
 ---
+
+## 🔧 Example URL via CDN
+
+```html
+<!-- jQuery from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+```
+
+CDNs also cache your own static assets:
+
+```text
+https://cdn.yoursite.com/assets/logo.png
+```
+
+---
