@@ -37,3 +37,13 @@ With server-side caching:
 | **Built-in app cache** | Some frameworks (e.g., Django, Laravel) have their own caching layers |
 
 ---
+
+## 🔁 Example Use Case
+
+Let’s say your app shows a leaderboard that’s expensive to calculate:
+
+1. On first request: fetch from DB, calculate, store in Redis with TTL (e.g., 60 seconds)
+2. On next requests: serve from Redis instantly
+3. After TTL expires: regenerate and cache again
+
+---
