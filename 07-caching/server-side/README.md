@@ -68,3 +68,11 @@ Let’s say your app shows a leaderboard that’s expensive to calculate:
 | 💰 Cost Efficient   | Save compute time and database read costs   |
 
 ---
+
+## ⚠️ Common Pitfalls
+
+- **Stale Data**: Ensure cache is updated when source data changes
+- **Over-caching**: Don’t cache everything — cache what’s expensive or slow
+- **Uncontrolled growth**: Use TTLs to prevent unbounded memory usage
+
+---
