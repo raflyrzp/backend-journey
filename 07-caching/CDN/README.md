@@ -15,3 +15,25 @@ The goal of a CDN is to **reduce latency**, **increase speed**, and **improve sc
 5. If not, the CDN fetches it from the origin server, delivers it to the user, and caches it for next time.
 
 ---
+
+## 🖼️ What Content is Cached?
+
+- 🖼 Images, icons
+- 📄 CSS and JavaScript files
+- 📹 Videos or media files
+- 📚 Static HTML pages
+- 🗂 Fonts and PDFs
+
+---
+
+## 🚀 Benefits of Using a CDN
+
+| Benefit                | Description                                                                |
+| ---------------------- | -------------------------------------------------------------------------- |
+| ⚡ Faster Load Times   | Content is delivered from the closest edge server to the user              |
+| 🌍 Global Reach        | Consistent performance across different regions                            |
+| 🛡️ DDoS Protection     | Many CDNs provide basic security, traffic filtering, and attack mitigation |
+| 📉 Reduced Server Load | Less traffic hits your origin server                                       |
+| 📦 Bandwidth Savings   | Edge servers serve cached content more efficiently                         |
+
+---
