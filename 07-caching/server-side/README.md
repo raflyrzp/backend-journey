@@ -27,3 +27,13 @@ With server-side caching:
 | 🌍 **Full Page Cache**      | Cache entire HTML output (used in SSR or CMS sites)           |
 
 ---
+
+## 🧪 Tools Commonly Used
+
+| Tool                   | Description                                                           |
+| ---------------------- | --------------------------------------------------------------------- |
+| **Redis**              | In-memory key-value store, popular for all caching types              |
+| **Memcached**          | Lightweight and fast, ideal for small key-value pairs                 |
+| **Built-in app cache** | Some frameworks (e.g., Django, Laravel) have their own caching layers |
+
+---
