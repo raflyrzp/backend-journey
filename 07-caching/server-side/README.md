@@ -47,3 +47,13 @@ Let’s say your app shows a leaderboard that’s expensive to calculate:
 3. After TTL expires: regenerate and cache again
 
 ---
+
+## 🧯 Cache Invalidation Strategies
+
+| Strategy                         | Description                                                |
+| -------------------------------- | ---------------------------------------------------------- |
+| **TTL (Time to Live)**           | Auto-expire cache after a set time                         |
+| **Manual Invalidate**            | Delete/update cache when data changes (e.g., after update) |
+| **Write-through / Write-behind** | Cache updates when data is written                         |
+
+---
