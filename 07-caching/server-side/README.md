@@ -76,3 +76,9 @@ Let’s say your app shows a leaderboard that’s expensive to calculate:
 - **Uncontrolled growth**: Use TTLs to prevent unbounded memory usage
 
 ---
+
+## 🧠 Summary
+
+- **Server-side caching** stores data temporarily in memory (like Redis) to reduce load and improve performance.
+- It can be applied to DB queries, full pages, or specific computed data.
+- A good caching strategy balances freshness, speed, and memory usage.
