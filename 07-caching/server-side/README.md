@@ -16,3 +16,14 @@ With server-side caching:
 - Future requests can **reuse the cached result**, avoiding redundant operations.
 
 ---
+
+## 🏗️ Where Caching Happens on the Server?
+
+| Layer                       | Description                                                   |
+| --------------------------- | ------------------------------------------------------------- |
+| 🔄 **Database Query Cache** | Store result of frequent SQL queries                          |
+| 📦 **Object/Data Cache**    | Cache processed objects (e.g., user profiles, dashboard data) |
+| 🧠 **Page Fragment Cache**  | Cache parts of rendered pages (e.g., sidebar, header)         |
+| 🌍 **Full Page Cache**      | Cache entire HTML output (used in SSR or CMS sites)           |
+
+---
