@@ -72,3 +72,8 @@ https://cdn.yoursite.com/assets/logo.png
 - Version your files (e.g., `app.v1.js`) to invalidate cache when updating content.
 
 ---
+
+## 🧠 Summary
+
+- A CDN improves your app’s speed, scalability, and global performance by delivering content from servers closest to the user.
+- It’s a key component in modern web architecture — especially for frontend assets and media-heavy websites.
