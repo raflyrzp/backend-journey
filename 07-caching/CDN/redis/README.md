@@ -16,3 +16,15 @@ It is commonly used for **caching**, **session storage**, **rate limiting**, **r
 | 🌐 Language Support | Works with Node.js, Python, PHP, Go, Java, etc.                        |
 
 ---
+
+## 🗂️ Common Use Cases
+
+| Use Case                 | Example                                              |
+| ------------------------ | ---------------------------------------------------- |
+| ✅ **Caching**           | Store results of expensive DB queries or API calls   |
+| ✅ **Session Storage**   | Store user session tokens or login status            |
+| ✅ **Rate Limiting**     | Count user requests per minute/hour to prevent abuse |
+| ✅ **Pub/Sub Messaging** | Enable real-time communication between services      |
+| ✅ **Queue System**      | Store background tasks for workers                   |
+
+---
