@@ -96,3 +96,10 @@ const getUserProfile = async (id) => {
 - Set TTL (`EX`) for cache entries to prevent memory overflow
 - Don’t store sensitive data unless encryption is applied
 - Monitor memory usage and eviction policies
+
+---
+
+## 🧠 Summary
+
+**Redis** is a powerful tool for improving performance in backend systems.
+It provides fast, flexible in-memory data storage, ideal for caching, sessions, rate-limiting, and real-time features.
