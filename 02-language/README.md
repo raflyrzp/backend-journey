@@ -112,6 +112,19 @@ Ruby is a dynamic, interpreted language best known for the **Ruby on Rails** fra
 
 ---
 
+### 7. Rust
+
+Rust is a system-level language focused on **safety**, **speed**, and **concurrency**. Though newer in the backend world, it’s gaining traction for web servers and microservices where performance and memory safety are critical.
+
+**Advantages:**
+
+- Memory-safe with zero-cost abstractions
+- High performance, close to C/C++
+- Great for building safe and concurrent systems
+- Strong tooling with `cargo`, and growing web frameworks (like Actix, Rocket)
+
+---
+
 ## 🎯 How to Choose a Backend Language?
 
 Choosing the right backend language depends on several factors, such as:
