@@ -87,3 +87,12 @@ const getUserProfile = async (id) => {
 | 🧠 In-memory only      | All data is stored in RAM → limited by memory         |
 | 💥 Volatile storage    | Data is lost on restart unless persistence is enabled |
 | 🧱 Not a relational DB | Not a replacement for SQL or document DBs             |
+
+---
+
+## ✅ Best Practices
+
+- Use meaningful key names (e.g., `user:123`)
+- Set TTL (`EX`) for cache entries to prevent memory overflow
+- Don’t store sensitive data unless encryption is applied
+- Monitor memory usage and eviction policies
