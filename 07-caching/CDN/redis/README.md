@@ -64,3 +64,18 @@ console.log(value); // "Hello Redis"
 ```
 
 ---
+
+## 📊 Redis as a Cache
+
+Example: caching expensive database queries
+
+```js
+const getUserProfile = async (id) => {
+  const cached = await redis.get(`user:${id}`);
+  if (cached) return JSON.parse(cached);
+
+  const user = await db.users.findById(id);
+  await redis.set(`user:${id}`, JSON.stringify(user), "EX", 3600);
+  return user;
+};
+```
