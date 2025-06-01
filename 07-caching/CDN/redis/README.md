@@ -79,3 +79,11 @@ const getUserProfile = async (id) => {
   return user;
 };
 ```
+
+## ⚠️ Redis Limitations
+
+| Limitation             | Workaround / Note                                     |
+| ---------------------- | ----------------------------------------------------- |
+| 🧠 In-memory only      | All data is stored in RAM → limited by memory         |
+| 💥 Volatile storage    | Data is lost on restart unless persistence is enabled |
+| 🧱 Not a relational DB | Not a replacement for SQL or document DBs             |
