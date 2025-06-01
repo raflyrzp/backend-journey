@@ -39,3 +39,11 @@ It is commonly used for **caching**, **session storage**, **rate limiting**, **r
 | `EXPIRE key seconds` | Set expiration time for a key            |
 | `TTL key`            | Check remaining time-to-live             |
 | `INCR key`           | Increment a number (useful for counters) |
+
+🧪 Example:
+
+```bash
+SET user:1 "Naruto Uzumaki"
+GET user:1
+EXPIRE user:1 60
+```
