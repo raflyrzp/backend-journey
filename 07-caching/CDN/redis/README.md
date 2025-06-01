@@ -47,3 +47,20 @@ SET user:1 "Naruto Uzumaki"
 GET user:1
 EXPIRE user:1 60
 ```
+
+---
+
+## 📦 Integration with Backend (Node.js Example)
+
+```js
+const redis = require("redis");
+const client = redis.createClient();
+
+client.connect();
+
+await client.set("greeting", "Hello Redis");
+const value = await client.get("greeting");
+console.log(value); // "Hello Redis"
+```
+
+---
