@@ -86,6 +86,19 @@ Go is a programming language developed by Google. It is designed for performance
 
 ---
 
+### 5. Java
+
+Java is a mature, object-oriented programming language that has powered enterprise applications for decades. Its robustness and scalability make it ideal for backend services in large-scale systems.
+
+**Advantages:**
+
+- Strongly typed and structured
+- Great performance with the JVM
+- Large ecosystem (Spring, Jakarta EE)
+- Excellent for enterprise-level applications
+
+---
+
 ## 🎯 How to Choose a Backend Language?
 
 Choosing the right backend language depends on several factors, such as:
