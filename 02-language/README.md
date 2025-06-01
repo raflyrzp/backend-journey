@@ -99,6 +99,19 @@ Java is a mature, object-oriented programming language that has powered enterpri
 
 ---
 
+### 6. Ruby
+
+Ruby is a dynamic, interpreted language best known for the **Ruby on Rails** framework, which promotes convention over configuration. It allows for rapid development of clean and maintainable backend apps.
+
+**Advantages:**
+
+- Developer-friendly and expressive syntax
+- Fast development with Rails
+- Strong conventions improve consistency
+- Active community and lots of gems (libraries)
+
+---
+
 ## 🎯 How to Choose a Backend Language?
 
 Choosing the right backend language depends on several factors, such as:
