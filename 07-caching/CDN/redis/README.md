@@ -28,3 +28,14 @@ It is commonly used for **caching**, **session storage**, **rate limiting**, **r
 | ✅ **Queue System**      | Store background tasks for workers                   |
 
 ---
+
+## 🔧 Basic Redis Commands
+
+| Command              | Description                              |
+| -------------------- | ---------------------------------------- |
+| `SET key value`      | Set a string value                       |
+| `GET key`            | Get the value of a key                   |
+| `DEL key`            | Delete a key                             |
+| `EXPIRE key seconds` | Set expiration time for a key            |
+| `TTL key`            | Check remaining time-to-live             |
+| `INCR key`           | Increment a number (useful for counters) |
