@@ -125,6 +125,20 @@ Rust is a system-level language focused on **safety**, **speed**, and **concurre
 
 ---
 
+### 8. C#
+
+**C# (C-Sharp)** is a modern, object-oriented language developed by Microsoft. It is widely used for backend services, especially with the **.NET ecosystem** and tools like **ASP.NET Core**.
+
+**Advantages:**
+
+- Excellent performance with ASP.NET Core
+- Strong support for enterprise applications
+- Integrated well with Windows and Azure
+- Powerful tooling via Visual Studio and .NET CLI
+- Great for APIs, microservices, and cross-platform development
+
+---
+
 ## 🎯 How to Choose a Backend Language?
 
 Choosing the right backend language depends on several factors, such as:
