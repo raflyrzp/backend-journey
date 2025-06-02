@@ -93,3 +93,13 @@ This file defines jobs and stages that will be executed automatically by GitLab 
 - Security scanning and compliance workflows
 
 ---
+
+## 🔐 Security Features
+
+- 2-Factor Authentication (2FA)
+- Role-based access control
+- Secret/variable management
+- Container image scanning
+- SAST/DAST security integrations
+
+---
