@@ -31,3 +31,15 @@ GitLab can be **self-hosted** or used via **GitLab.com**, its cloud-hosted versi
 | 📊 Analytics              | Insights on code quality, activity, and performance |
 
 ---
+
+## 🧪 GitLab vs GitHub
+
+| Feature         | GitLab                             | GitHub                                |
+| --------------- | ---------------------------------- | ------------------------------------- |
+| Hosting Options | Cloud & Self-hosted (open source)  | Cloud-hosted, limited self-hosting    |
+| CI/CD           | Built-in, powerful & configurable  | GitHub Actions (newer but robust)     |
+| DevOps Scope    | Covers full DevOps lifecycle       | Focused more on code & collaboration  |
+| Permissions     | Flexible role-based access control | Simpler permission system             |
+| Open Source     | Core is open source                | Proprietary (with some free features) |
+
+---
