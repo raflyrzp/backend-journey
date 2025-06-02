@@ -43,3 +43,32 @@ GitLab can be **self-hosted** or used via **GitLab.com**, its cloud-hosted versi
 | Open Source     | Core is open source                | Proprietary (with some free features) |
 
 ---
+
+## 🛠️ Example GitLab CI/CD File (`.gitlab-ci.yml`)
+
+```yaml
+stages:
+  - build
+  - test
+  - deploy
+
+build_app:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+
+run_tests:
+  stage: test
+  script:
+    - npm run test
+
+deploy_app:
+  stage: deploy
+  script:
+    - echo "Deploying app..."
+```
+
+This file defines jobs and stages that will be executed automatically by GitLab CI when you push code.
+
+---
