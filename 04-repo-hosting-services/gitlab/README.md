@@ -72,3 +72,14 @@ deploy_app:
 This file defines jobs and stages that will be executed automatically by GitLab CI when you push code.
 
 ---
+
+## ☁️ GitLab.com vs Self-Hosted
+
+| Option      | GitLab.com               | Self-Hosted GitLab                    |
+| ----------- | ------------------------ | ------------------------------------- |
+| Setup       | No setup required        | Requires server setup and maintenance |
+| Scalability | Scales automatically     | Depends on your infrastructure        |
+| Control     | Limited customization    | Full control of infrastructure & data |
+| Ideal For   | Individuals, small teams | Enterprises, organizations with infra |
+
+---
