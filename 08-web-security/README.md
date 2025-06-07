@@ -86,3 +86,23 @@ Store secrets (API keys, DB credentials) in `.env` files, not in code.
 | **Rate Limiting**    | Prevent brute-force login attacks    |
 
 ---
+
+## 🔍 OWASP Top 10
+
+The [OWASP Top 10](https://owasp.org/www-project-top-ten/) is a list of the most critical web application security risks.  
+Every developer should understand and mitigate these.
+
+| Rank | Risk                                     |
+| ---- | ---------------------------------------- |
+| 1    | Broken Access Control                    |
+| 2    | Cryptographic Failures                   |
+| 3    | Injection                                |
+| 4    | Insecure Design                          |
+| 5    | Security Misconfiguration                |
+| 6    | Vulnerable Components                    |
+| 7    | Identification & Authentication Failures |
+| 8    | Software and Data Integrity Failures     |
+| 9    | Security Logging and Monitoring Failures |
+| 10   | Server-Side Request Forgery (SSRF)       |
+
+---
