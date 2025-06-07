@@ -63,3 +63,15 @@ Prevent brute-force and DDoS attacks with rate limiting (e.g., via Redis or midd
 Store secrets (API keys, DB credentials) in `.env` files, not in code.
 
 ---
+
+## 🛡️ Useful HTTP Headers
+
+| Header                      | Purpose                                         |
+| --------------------------- | ----------------------------------------------- |
+| `Content-Security-Policy`   | Prevent XSS by restricting script sources       |
+| `X-Frame-Options`           | Prevent clickjacking (`DENY` or `SAMEORIGIN`)   |
+| `X-Content-Type-Options`    | Avoid MIME type sniffing                        |
+| `Strict-Transport-Security` | Enforce HTTPS for future requests               |
+| `Referrer-Policy`           | Control what info is sent in the Referer header |
+
+---
