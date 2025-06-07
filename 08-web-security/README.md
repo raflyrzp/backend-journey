@@ -27,3 +27,39 @@ Understanding common vulnerabilities and applying secure coding practices is ess
 | **Security Misconfiguration**         | Using default credentials, verbose error messages, or open ports |
 
 ---
+
+## 🧰 Best Practices
+
+### 1. 🔒 Use HTTPS
+
+Encrypt all communication using SSL/TLS.
+
+### 2. 🔐 Sanitize User Input
+
+Always validate and escape inputs to prevent SQLi and XSS.
+
+### 3. 🧠 Use Parameterized Queries
+
+Avoid building SQL manually. Use safe ORM or prepared statements.
+
+### 4. 🚫 Disable Verbose Errors
+
+Avoid exposing stack traces or database errors to the client.
+
+### 5. 🧾 Secure Cookies
+
+Set `HttpOnly`, `Secure`, and `SameSite` flags on cookies.
+
+### 6. 🧼 Store Passwords Securely
+
+Never store plain passwords — use strong hashing algorithms (e.g., bcrypt).
+
+### 7. 🧑‍💻 Rate Limit Requests
+
+Prevent brute-force and DDoS attacks with rate limiting (e.g., via Redis or middleware).
+
+### 8. 🧭 Use Environment Variables
+
+Store secrets (API keys, DB credentials) in `.env` files, not in code.
+
+---
