@@ -75,3 +75,14 @@ Store secrets (API keys, DB credentials) in `.env` files, not in code.
 | `Referrer-Policy`           | Control what info is sent in the Referer header |
 
 ---
+
+## 🧪 Tools to Improve Security
+
+| Tool                 | Use Case                             |
+| -------------------- | ------------------------------------ |
+| **OWASP ZAP**        | Scan your app for vulnerabilities    |
+| **Helmet (Node.js)** | Set security headers in Express apps |
+| **CSRF Middleware**  | Protect against CSRF attacks         |
+| **Rate Limiting**    | Prevent brute-force login attacks    |
+
+---
