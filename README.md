@@ -9,15 +9,16 @@ I hope this repo not only helps me personally, but also serves as a valuable gui
 
 ## 📚 Topics Overview
 
-| No  | Topic                                                 | Description                                                                                    |
-| --- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| 01  | [Internet](./01-internet/)                            | How data moves across networks, DNS, HTTP, browsers, and hosting basics.                       |
-| 02  | [Language](./02-language/)                            | Choosing and setting up a backend language (JavaScript/TypeScript, Python, Go, Java, etc.)     |
-| 03  | [Version Control System](./03-version-control-system) | Concepts of distributed versioning (commits, branches, merges) and how to manage code history. |
-| 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Cloud platforms (GitHub, GitLab, Bitbucket) for storing repos, reviewing code, and CI/CD.      |
-| 05  | [Relational Database](./05-relational-database/)      | Modeling data with tables, keys, SQL queries, and best practices for PostgreSQL/MySQL/SQLite.  |
-| 06  | [API](./06-API/)                                      | Designing and consuming APIs, request–response cycle, and documentation.                       |
-| 07  | [Caching](./07-caching/)                              | Improve performance by storing frequently accessed data using tools like Redis or Memcached.   |
+| No  | Topic                                                 | Description                                                                                           |
+| --- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 01  | [Internet](./01-internet/)                            | How data moves across networks, DNS, HTTP, browsers, and hosting basics.                              |
+| 02  | [Language](./02-language/)                            | Choosing and setting up a backend language (JavaScript/TypeScript, Python, Go, Java, etc.)            |
+| 03  | [Version Control System](./03-version-control-system) | Concepts of distributed versioning (commits, branches, merges) and how to manage code history.        |
+| 04  | [Repo Hosting Services](./04-repo-hosting-services)   | Cloud platforms (GitHub, GitLab, Bitbucket) for storing repos, reviewing code, and CI/CD.             |
+| 05  | [Relational Database](./05-relational-database/)      | Modeling data with tables, keys, SQL queries, and best practices for PostgreSQL/MySQL/SQLite.         |
+| 06  | [API](./06-API/)                                      | Designing and consuming APIs, request–response cycle, and documentation.                              |
+| 07  | [Caching](./07-caching/)                              | Improve performance by storing frequently accessed data using tools like Redis or Memcached.          |
+| 08  | [Web Security](./08-web-security/)                    | Learn how to protect your web apps from threats like XSS, SQLi, CSRF, and security misconfigurations. |
 
 ---
 
