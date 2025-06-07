@@ -106,3 +106,10 @@ Every developer should understand and mitigate these.
 | 10   | Server-Side Request Forgery (SSRF)       |
 
 ---
+
+## 🧠 Summary
+
+- Web security is critical in every backend project.
+- Understand common threats like XSS, SQLi, CSRF, and how to prevent them.
+- Use HTTPS, secure headers, input validation, and encryption.
+- Regularly audit and test your application for vulnerabilities.
